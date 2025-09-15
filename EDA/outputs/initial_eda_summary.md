@@ -1,0 +1,214 @@
+# Initial EDA Summary
+
+## Movies
+{
+  "dir": "/data4/src/shunsuke/OSS_2025/data/movie",
+  "count": 349,
+  "sample": [
+    "A31H.mp4",
+    "A36O.mp4",
+    "A40E.mp4",
+    "A41X.mp4",
+    "A59Z.mp4",
+    "A61V.mp4",
+    "A66S.mp4",
+    "A70T.mp4",
+    "A78E.mp4",
+    "A80U.mp4"
+  ],
+  "unique_ids": 349,
+  "orphan_movies_count": 0,
+  "orphan_movies_sample": []
+}
+
+## Labels
+{
+  "path": "/data4/src/shunsuke/OSS_2025/data/OSATS_MICCAI_trainset.xlsx",
+  "loaded": true,
+  "rows": 1047,
+  "cols": [
+    "STUDENT",
+    "SUTURES",
+    "VIDEO",
+    "INVESTIGATOR",
+    "OSATS_RESPECT",
+    "OSATS_MOTION",
+    "OSATS_INSTRUMENT",
+    "OSATS_SUTURE",
+    "OSATS_FLOW",
+    "OSATS_KNOWLEDGE",
+    "OSATS_PERFORMANCE",
+    "OSATS_FINAL_QUALITY",
+    "GLOBA_RATING_SCORE"
+  ],
+  "has_required": {
+    "VIDEO": true,
+    "GRS(aliased)": true
+  },
+  "has_osats": {
+    "OSATS_RESPECT": true,
+    "OSATS_MOTION": true,
+    "OSATS_INSTRUMENT": true,
+    "OSATS_SUTURE": true,
+    "OSATS_FLOW": true,
+    "OSATS_KNOWLEDGE": true,
+    "OSATS_PERFORMANCE": true,
+    "OSATSFINALQUALITY": true
+  },
+  "resolved": {
+    "video_col": "VIDEO",
+    "grs_col": "GLOBA_RATING_SCORE",
+    "osats_cols": {
+      "OSATS_RESPECT": "OSATS_RESPECT",
+      "OSATS_MOTION": "OSATS_MOTION",
+      "OSATS_INSTRUMENT": "OSATS_INSTRUMENT",
+      "OSATS_SUTURE": "OSATS_SUTURE",
+      "OSATS_FLOW": "OSATS_FLOW",
+      "OSATS_KNOWLEDGE": "OSATS_KNOWLEDGE",
+      "OSATS_PERFORMANCE": "OSATS_PERFORMANCE",
+      "OSATSFINALQUALITY": "OSATS_FINAL_QUALITY"
+    }
+  },
+  "video_ids_in_xlsx": 349,
+  "grs_class_counts": {
+    "0": 329,
+    "1": 266,
+    "2": 283,
+    "3": 169
+  },
+  "osats_stats": {
+    "OSATS_RESPECT": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 186,
+        "2": 220,
+        "3": 349,
+        "4": 230,
+        "5": 62
+      }
+    },
+    "OSATS_MOTION": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 254,
+        "2": 291,
+        "3": 294,
+        "4": 173,
+        "5": 35
+      }
+    },
+    "OSATS_INSTRUMENT": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 215,
+        "2": 217,
+        "3": 297,
+        "4": 255,
+        "5": 63
+      }
+    },
+    "OSATS_SUTURE": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 244,
+        "2": 244,
+        "3": 286,
+        "4": 219,
+        "5": 54
+      }
+    },
+    "OSATS_FLOW": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 240,
+        "2": 268,
+        "3": 274,
+        "4": 213,
+        "5": 52
+      }
+    },
+    "OSATS_KNOWLEDGE": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 241,
+        "2": 155,
+        "3": 245,
+        "4": 264,
+        "5": 142
+      }
+    },
+    "OSATS_PERFORMANCE": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 242,
+        "2": 233,
+        "3": 302,
+        "4": 213,
+        "5": 57
+      }
+    },
+    "OSATSFINALQUALITY": {
+      "min": 1,
+      "max": 5,
+      "counts": {
+        "1": 299,
+        "2": 208,
+        "3": 238,
+        "4": 218,
+        "5": 84
+      }
+    }
+  },
+  "missing_video_files_count": 0,
+  "missing_video_files_sample": []
+}
+
+## Task3
+{
+  "train": {
+    "mot_files": 312,
+    "frames_files": 312
+  },
+  "val": {
+    "mot_files": 9,
+    "frame_dirs": 9
+  },
+  "mot_sampled_lines": 295,
+  "class_row_counts": {
+    "0": 50,
+    "1": 48,
+    "2": 49,
+    "3": 50,
+    "4": 49,
+    "5": 49
+  },
+  "kp_triple_counts_by_class": {
+    "1": {
+      "6": 48
+    },
+    "0": {
+      "6": 50
+    },
+    "2": {
+      "3": 49
+    },
+    "4": {
+      "3": 49
+    },
+    "3": {
+      "3": 50
+    },
+    "5": {
+      "3": 49
+    }
+  }
+}
+
+## Notes

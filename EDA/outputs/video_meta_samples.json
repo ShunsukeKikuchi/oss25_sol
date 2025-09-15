@@ -1,0 +1,155 @@
+{
+  "summary": {
+    "count": 349,
+    "sampled": 20,
+    "sources": [
+      "ffprobe"
+    ],
+    "width_mode": 1920,
+    "height_mode": 1080,
+    "fps_mode": 29.973319798059297,
+    "duration_mean_sec": 304.654346
+  },
+  "samples": {
+    "B88L.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97331802710795,
+      "duration": 304.203892,
+      "source": "ffprobe"
+    },
+    "E01L.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.9733107614881,
+      "duration": 304.8045,
+      "source": "ffprobe"
+    },
+    "G11V.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973319798059297,
+      "duration": 304.003696,
+      "source": "ffprobe"
+    },
+    "J76I.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973266797708412,
+      "duration": 308.97533,
+      "source": "ffprobe"
+    },
+    "K53Y.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973337322458327,
+      "duration": 302.368732,
+      "source": "ffprobe"
+    },
+    "K75R.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97330450587305,
+      "duration": 305.405098,
+      "source": "ffprobe"
+    },
+    "L96N.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97334469958795,
+      "duration": 301.768124,
+      "source": "ffprobe"
+    },
+    "N13V.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973308121798965,
+      "duration": 305.104794,
+      "source": "ffprobe"
+    },
+    "O74E.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973307243056905,
+      "duration": 305.204892,
+      "source": "ffprobe"
+    },
+    "P54M.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973311055107995,
+      "duration": 304.771134,
+      "source": "ffprobe"
+    },
+    "Q17K.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97330509065474,
+      "duration": 305.338366,
+      "source": "ffprobe"
+    },
+    "Q58C.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973301585793713,
+      "duration": 305.738758,
+      "source": "ffprobe"
+    },
+    "S76W.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973284333272797,
+      "duration": 307.273634,
+      "source": "ffprobe"
+    },
+    "S89X.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973299439616998,
+      "duration": 305.872232,
+      "source": "ffprobe"
+    },
+    "T54X.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973312332369392,
+      "duration": 304.737758,
+      "source": "ffprobe"
+    },
+    "T66G.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.9733212756348,
+      "duration": 303.836866,
+      "source": "ffprobe"
+    },
+    "U88X.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973319502738782,
+      "duration": 304.037062,
+      "source": "ffprobe"
+    },
+    "X14A.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97334250612347,
+      "duration": 301.901598,
+      "source": "ffprobe"
+    },
+    "X61S.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97332314977827,
+      "duration": 303.736758,
+      "source": "ffprobe"
+    },
+    "X99A.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.973319798059297,
+      "duration": 304.003696,
+      "source": "ffprobe"
+    }
+  }
+}
